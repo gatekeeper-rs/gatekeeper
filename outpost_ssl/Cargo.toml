@@ -1,7 +1,7 @@
 [package]
 name = "outpost_ssl"
 version = "0.1.0"
-authors = ["j-brn <me@jbrn.eu>"]
+authors = ["j-brn <me@jbrn.eu>", "jonas32 <m@x32.me>"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
