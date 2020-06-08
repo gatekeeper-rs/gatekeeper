@@ -1,0 +1,25 @@
+[package]
+name = "outpost-rs"
+version = "0.1.0"
+authors = ["j-brn <me@jbrn.eu>"]
+edition = "2018"
+
+[workspace]
+members = [
+    "outpost_auth",
+    "outpost_cache",
+    "outpost_config",
+    "outpost_ratelimit",
+    "outpost_routing",
+    "outpost_ssl",
+    "outpost_storage"
+]
+
+[dependencies]
+outpost_auth = { path = "./outpost_auth" }
+outpost_cache = { path = "./outpost_cache" }
+outpost_config = { path = "./outpost_config" }
+outpost_ratelimit = { path = "./outpost_ratelimit" }
+outpost_routing = { path = "./outpost_routing" }
+outpost_ssl = { path = "./outpost_ssl" }
+outpost_storage = { path = "./outpost_storage" }
