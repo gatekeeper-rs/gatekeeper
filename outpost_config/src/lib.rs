@@ -6,6 +6,8 @@ use thiserror::Error;
 pub mod provider;
 
 /// Key value config provider
+///
+/// The implementation may persist its values but is not forced to do so.
 pub trait ConfigProvider {
     /// Get a specific value from the config and deserialize it to the given type.
     /// Returns a ConfigError::NotFound if the key doesn't or ConfigError::Other if something else
